@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url("font/PlayfairDisplay-Regular.ttf") format("ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "PlayfairDisplay";
+    letter-spacing: .05rem;
+    line-height: 1.2rem;
+}
+nav{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    display: inline;
+    margin-left: .5rem;
+}
+a{
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+}
+#imgHeader{
+    background: url("img/hamburger.jpg") center no-repeat;
+    background-size: cover ;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+}
+h1{
+    padding: 5px;
+}
+h1,h2,h3{
+    color: rgb(80, 80, 80);
+    letter-spacing: .2rem;
+}
+textarea{
+    resize:none;
+}
+main {
+    margin: 50px auto;
+    width: 75%;
+}
+
+section {
+    display: flex;
+}
+
+/* J'utilise une unique classe pour définir à la fois
+la largeur de mon text(About,Menu) et mes images
+ */
+.carro {
+    width: 50%;
+    padding: 10px;
+    
+}
+
+.carro img {
+    width: 100%;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+}
